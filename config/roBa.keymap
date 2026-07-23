@@ -86,7 +86,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LA(GRAVE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                             &lt 1 DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         FUNCTION {
