@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R                       &kp T                                                 &kp Y              &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                       &kp G        &kp LS(LG(S))             &kp MINUS      &kp H              &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                       &kp B        &kp EQUAL                 &kp PLUS       &kp N              &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LA(TILDE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                             &lt 1 DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LA(GRAVE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                             &lt 1 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
