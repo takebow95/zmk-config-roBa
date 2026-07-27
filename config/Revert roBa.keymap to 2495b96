@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                     &kp T                                                 &kp LA(LEFT_ARROW)  &kp INT_HENKAN  &kp LG(H)     &kp LC(T)       &kp LC(T)
-&kp A      &kp S         &kp D         &kp F                     &kp G        &kp LS(LG(S))             &kp LEFT_ALT   &kp TAB             &mkp MB1        &mkp MB3      &mkp MB2        &kp ENTER
-&kp Z      &kp X         &kp C         &kp V                     &kp B        &kp EQUAL                 &kp PAGE_UP    &kp PAGE_DOWN       &kp RCTRL       &kp LEFT_WIN  &kp LEFT_ARROW  &kp RIGHT_ARROW
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                                                 &kp ESCAPE
+&kp Q      &kp W         &kp E         &kp R                     &kp T                                                 &kp Y              &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F                     &kp G        &kp LS(LG(S))             &kp MINUS      &kp H              &kp J  &kp K      &kp L    &kp ENTER
+&kp Z      &kp X         &kp C         &kp V                     &kp B        &kp EQUAL                 &kp PLUS       &kp N              &kp M  &kp COMMA  &kp DOT  &kp QUESTION
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                             &mt RIGHT_SHIFT DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
