@@ -10,6 +10,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -80,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                     &kp T                                                 &kp Y              &kp U  &lt 5 I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                     &kp G        &kp LS(LG(S))             &kp MINUS      &kp H              &kp J  &lt 5 LG(H)  &kp L    &kp ENTER
-&kp Z      &kp X         &kp C         &kp V                     &kp B        &kp EQUAL                 &kp PLUS       &kp N              &kp M  &kp COMMA    &kp DOT  &kp QUESTION
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 5 RIGHT_SHIFT                               &mt RIGHT_SHIFT DEL
+&kp Q      &kp W         &kp E         &kp R                     &kp T                                                 &kp Y          &kp U      &kp INT_HENKAN  &kp LC(T)       &kp LC(W)
+&kp A      &kp S         &kp D         &kp F                     &kp G        &kp LS(LG(S))             &kp MINUS      &kp LEFT_ALT   &mkp MB1   &lt 5 LG(H)     &mkp MB2        &kp ENTER
+&kp Z      &kp X         &kp C         &kp V                     &kp B        &kp EQUAL                 &kp PAGE_UP    &kp PAGE_DOWN  &kp LCTRL  &kp LEFT_WIN    &kp LEFT_ARROW  &kp RIGHT_ARROW
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LC(SPACE)  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 2 TAB                                                 &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
