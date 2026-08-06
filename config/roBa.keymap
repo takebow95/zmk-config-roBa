@@ -83,7 +83,7 @@
             bindings = <
 &lt 6 Q    &kp W         &kp E         &kp R                   &kp T                                                  &kp LS(LC(LG(NUMBER_4)))    &kp HOME                     &kp END          &kp LG(T)    &kp LG(W)
 &kp A      &kp S         &kp D         &kp F                   &kp G        &kp ESCAPE                &kp MINUS       &kp UP_ARROW                &mkp MB1                     &lt 5 LC(M)      &mkp MB2     &kp ENTER
-&kp Z      &kp X         &kp C         &kp V                   &kp B        &kp PLUS                  &kp LEFT_ARROW  &kp LS(LA(LC(LEFT_ARROW)))  &kp LS(LA(LC(RIGHT_ARROW)))  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(LEFT_BRACKET)
+&kp Z      &kp X         &kp C         &kp V                   &kp B        &kp PLUS                  &kp LEFT_ARROW  &kp LC(LA(LS(LEFT_ARROW)))  &kp LC(LA(LS(RIGHT_ARROW)))  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(LEFT_BRACKET)
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LC(INT_MUHENKAN)  &lt 1 SPACE  &lt_to_layer_0 7 TAB      &kp BACKSPACE   &lt 2 INT_HENKAN                                                                       &kp RIGHT_SHIFT
             >;
 
