@@ -101,10 +101,10 @@
 
         NUM {
             bindings = <
-&kp SEMI         &kp COLON             &kp LESS_THAN          &kp GREATER_THAN  &kp AMPERSAND                                                   &kp ASTRK          &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp MINUS
+&kp SEMI         &kp COLON             &kp LESS_THAN          &kp GREATER_THAN  &kp AMPERSAND                                                   &kp ASTRK          &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp BACKSLASH
 &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp DOLLAR        &kp PERCENT      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE    &kp SLASH          &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp PLUS
 &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp TILDE                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3  &mt RIGHT_GUI KP_N0
-&trans           &trans                &kp LEFT_COMMAND       &trans            &trans           &trans                       &trans            &trans                                                    &kp BACKSLASH
+&trans           &trans                &kp LEFT_COMMAND       &trans            &trans           &trans                       &trans            &trans                                                    &kp RIGHT_SHIFT
             >;
         };
 
