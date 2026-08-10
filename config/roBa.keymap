@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kt Q      &kp W         &kp E             &kp R        &kp T                                                  &kp LS(LC(LG(NUMBER_4)))  &kp HOME             &kp END          &kp LG(T)    &kp LG(W)
-&kp A      &kp S         &kp D             &kp F        &kp G        &kp C_PLAY_PAUSE          &kp MINUS       &kp UP_ARROW              &mkp MB1             &lt 5 LC(J)      &mkp MB2     &kp ENTER
-&kp Z      &kp X         &kp C             &kp V        &kp B        &kp PLUS                  &kp LEFT_ARROW  &kp LA(LEFT_ARROW)        &kp LA(RIGHT_ARROW)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(LEFT_BRACKET)
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG2  &lt 3 SPACE  &lt_to_layer_0 7 TAB      &kp BACKSPACE   &lt 2 LANG1                                                                  &kp ESC
+&kt Q      &kp W         &kp E             &kp R        &kp T                                                 &kp LS(LC(LG(NUMBER_4)))  &kp HOME             &kp END          &kp LG(T)    &kp LG(W)
+&kp A      &kp S         &kp D             &kp F        &kp G        &kp C_PLAY_PAUSE          &kp MINUS      &kp LC(UP_ARROW)          &mkp MB1             &lt 5 LC(J)      &mkp MB2     &kp ENTER
+&kp Z      &kp X         &kp C             &kp V        &kp B        &kp PLUS                  &kp LC(LA(N))  &kp LA(LEFT_ARROW)        &kp LA(RIGHT_ARROW)  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LG(LEFT_BRACKET)
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG2  &lt 3 SPACE  &lt_to_layer_0 7 TAB      &kp BACKSPACE  &lt 2 LANG1                                                                  &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
